@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sun Feb 19 14:44:19 2023 as: nmap -oA outputfile 14.139.180.144
+Nmap scan report for 14.139.180.144
+Host is up (0.080s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+443/tcp   open  https
+10000/tcp open  snet-sensor-mgmt
+
+# Nmap done at Sun Feb 19 14:44:26 2023 -- 1 IP address (1 host up) scanned in 7.15 seconds
